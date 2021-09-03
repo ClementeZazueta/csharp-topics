@@ -18,7 +18,7 @@ namespace AsyncAwaitDemo
             var defaulColor = Console.ForegroundColor;
             var response = await _client.GetAsync("https://swapi.dev/api/people/1");
             var responseContent = response.Content.ReadAsStringAsync().Result;
-            Console.WriteLine("");
+
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine(responseContent);
             Console.ForegroundColor = ConsoleColor.Green;
