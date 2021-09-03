@@ -5,4 +5,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AsyncAwaitDemo\AsyncAwaitDemo.csproj" />
+    <ProjectReference Include="..\ExtensionMethods\ExtensionMethods.csproj" />
+    <ProjectReference Include="..\GenericsClasses\GenericsClasses.csproj" />
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
