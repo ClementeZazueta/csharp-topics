@@ -3,10 +3,6 @@ using ExtensionMethods;
 using GenericsClasses;
 using Interfaces.Npcs;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpTopics
 {
